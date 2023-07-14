@@ -18,10 +18,10 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Modules](#modules)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
@@ -178,6 +178,151 @@ VS CODE EDITOR
 - When you first launch Visual Studio Code, you will see a welcome screen. You can choose to customize your settings or skip the customization and go straight to the editor.
 
 - Visual Studio Code is now ready to use as a code editor. You can start by opening a folder or creating a new file.
+
+##  Modules <a name = "modules"></a>
+
+User Module:
+
+The project contains 3 Module:
+
+1) Admin
+
+2) Customer
+
+3) Delivery Person
+
+Functional Modules:
+
+1) User Authentication Module
+2) Product Module
+3) Product Category Module
+4) Cart Module
+5) Order Module
+6) Delivery Module
+7) Payment Module
+
+User Role-Wise Functionalities:
+
+```
+CUSTOMER ROLE 
+```
+
+- Register & Login User :
+  Register & Login of User is Role Based. During the Registration & Login, we have to select the Role like Admin, Customer, or Delivery Person.
+
+<div class="separator" style="clear: both; text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://blogger.googleusercontent.com/img/a/AVvXsEjOglqiGoDrYkz1Zp9pp9dPq0dGBA1l1w0FdgPhHaDnkvCjDiGkwlg5zyS4pegt15eLUbLR1zIuDL14jwkJddka-a73w7hBoxHgADyUQlEogz8O28WqONqkfCr6D0RZl_MlqbCY7nPYWvX7l6QQHHEAUEOEgeg9GhgsfPKUVQXvr56gAQBOXnZ7BQNlIg" style="margin-left: 1em; margin-right: 1em;"><img alt="" data-original-height="901" data-original-width="389" height="320" src="https://blogger.googleusercontent.com/img/a/AVvXsEjOglqiGoDrYkz1Zp9pp9dPq0dGBA1l1w0FdgPhHaDnkvCjDiGkwlg5zyS4pegt15eLUbLR1zIuDL14jwkJddka-a73w7hBoxHgADyUQlEogz8O28WqONqkfCr6D0RZl_MlqbCY7nPYWvX7l6QQHHEAUEOEgeg9GhgsfPKUVQXvr56gAQBOXnZ7BQNlIg=w139-h320" width="139"></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://blogger.googleusercontent.com/img/a/AVvXsEgkxv80seYNj9LpQsrAGbqOj6BcPoDvYzvdeK9BNAYo9ryeuLEetae6nuAphDEW4mhWJUzNAccF4Rf7OEJFQjjylalc-TKhAC_v5oFI-aD3tHE7s-F75k-BQ_T1w50X4yi2WOInCRBlfsG8SX8uejc1E5SD25pqC56Q14jMvrWpQARNfza_nCjkfQin4g" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img alt="" data-original-height="376" data-original-width="383" height="240" src="https://blogger.googleusercontent.com/img/a/AVvXsEgkxv80seYNj9LpQsrAGbqOj6BcPoDvYzvdeK9BNAYo9ryeuLEetae6nuAphDEW4mhWJUzNAccF4Rf7OEJFQjjylalc-TKhAC_v5oFI-aD3tHE7s-F75k-BQ_T1w50X4yi2WOInCRBlfsG8SX8uejc1E5SD25pqC56Q14jMvrWpQARNfza_nCjkfQin4g" width="244"></a></div>
+<hr>
+
+- Customers can view all the Products on the Home Page :-
+
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=621px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEjoF_c9TnZfcfR1idlqlcJORD8rkb7Bf3ulE9i_Hi5nCe9F48Ni8oiG_ka354SFfxjJqdO5RyESxlcU2OgdbtnpA96-KqkQL-h8qShVRc0yqWjURwkmwDdeNqfmknhSc8NdICT1FxJ2JSwbJFPHTWkdbqcIRHbPQv_XZeLDwQtrTaPX8hdcbHxwUWaN1A" alt="Project logo"></a>
+</p>
+<hr>
+
+- Customers can Open a Product to View it in Detail.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=676px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEh773WsEHT8RX321FlSn5ipO9tPD0z_KaN0mqWUvP6G_fuQ8TpbvRUdL72TYA421FYmK5DZZK54QLnZARzH-RxnXnnpG-kqRoOYeSWV9oFK6xPGEbMEq9-27a9ZWhbsijdO9BWcvazUsRnsPP5hyIjH658Yvo1CFKIviK3loxGty7eEbeXQRnshygVFog" alt="Project logo"></a>
+</p>
+In the above image, we can see, Customer will be able to see the Product in detail and below that, he can also see Related Products.
+<hr>
+
+- Customer's Cart :-
+
+ In the above picture, we can see when we open a Product, we get the option to  Add Product Quantity to the Cart.
+After adding all the required Products, Now, Customer can see his Cart as shown in the below picture.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=731px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEj5R1a2H7__r4hlCCF0VYmF6Jd1rsqDtp6ge4dmDSPzKMN8qa6VD3mSWil81LdyVqNO-E9QYff4__Iv-DFiC_PwyjmVSHUEhjPwQTaTSuSvk95z2gR8I4idhXntqAar-Q9rNQI_7m661AflNSl7bztZqoJ8HK48S2fB8aSuxVF5nwJKki1YO3cf7Kr6_w" alt="Project logo"></a>
+</p>
+
+  Customers can also delete the Product from the Cart by clicking on the delete button in front of the Product.
+Below, the Customer will be able to see the total amount to Pay for the Order.
+<hr>
+
+- Payment for the Order :-
+  
+  In the above pic, below the Total Price for the Order, customers will get the Checkout button, so when the customer will click on it, It will be redirected to the payment page as shown below.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=297px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEhVpj9hcx-faCQTUxwfSnoSTmxHPPsYLQ-6stOO3xb8yFGITtDUtjhKSpe2_8-BT1TftO3rcg73AV2VzgUDdxiz_f3lEfyO3yrLTW2rW4Dg9dKIfr92mZMXaGPLhnxtLeBpLHDaC_V9oBByEp4s3R7ltZexD7hqUJu9DsvxLci7-pglo75EzEBzSBWftw" alt="Project logo"></a>
+</p>
+
+  So after filling in all the details, when the customer will click the Pay button, an Order will be placed for the Customer.
+<hr>
+
+```
+ADMIN ROLE
+```
+- View All Customer Orders
+
+  Admin can see all the Customer Orders after the login as shown in the below picture.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=734px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEh-wkDxXRUDy2V16QDkEtVVT8EuCpkVVmxAOpw8_sGYKo8lBzt7TEJCBLBt2Thm603ilwxV2mQ6SjcfQM5hrMHtwUikkGRcfeBcMQjBuENZNKbH8Z0dE1bwg9Oj_wuFdJ5JplH5MtY-m_nZdc_27D6gLFExDiYJk0LeCKmcLGaYgHDa_9Jndeby1SDnPg" alt="Project logo"></a>
+</p>
+
+  Admin can see for the Order, delivery Status is Pending. So from here, the admin can assign the Delivery Person for the Customer Order.
+<hr>
+
+- Assign a Delivery Person for Customer Orders
+
+  As seen in the above picture, For all the Customer Orders, the Delivery Status is Pending. So now, Admin can assign a Delivery Person for the Customer Orders by using the Unique Order Id.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=734px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEifN6gL6SYHP9ROuYAOBVuG76s7pd0qLnS4OJjxSBKN95bCtksEWxSLdonWxlf9r61TJs5wlBb8sI3wfxEjIWIQ_nDBb96PzKJhaGKs1Kx4rW5yom5ndpMdZ2o4tJm0Yf63nz3RVL7HaQqpaMVHEWm7Al6QMhrDFDUXZqlk7gw4CcftFUy3Z1eiLWgD8A" alt="Project logo"></a>
+</p>
+
+<hr>
+
+- Add Category
+
+  Admin can add the Product Categories like laptops, Mobile, Shoes, etc.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=399px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEhPTf_GmUaRSp27uk9IYDlKHO3JLsu6dXceMpeGM08lzU31hY0JwrJg6lGoQ-npoGaXMUav2fQHZYrMHBVrEbn_jFU1-PKJwIYHiL0vgJ1IAtQyLCD2dibg07hmRuRm80Bk8fPNQ0EiMO0f7F9gPdH6_w10dGES-wo3IPvzeDVC6U85Ag84VWr09ByuAQ" alt="Project logo"></a>
+</p>
+<hr>
+
+- Add Products
+  
+  Admin can add the Product.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=203px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEh5_1PWAusFhvX_1c_Sk77b0D2GKce-LTMAK43blSh9R4-z73L46OD_osGbVjIlHtpLBeGM9O7BxWfSjMYzeqxcj3x-GMbw0SSs2BiPlCc_DiNWmm1bFR2JFEqqHGOcMwslp5To4EcshfcQ5jLOBmhtJP6Kc6fQFWVRdP3GnDA8ZRUNAN5pu_RgxnBONw" alt="Project logo"></a>
+</p>
+<hr>
+
+```
+DELIVERY PERSON ROLE
+```
+- View My Deliveries
+
+  Delivery Person can see all the Orders which are assigned to him by the Admin as shown below.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=735px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEiyZxYH7GSJqdxDXARmU1s7ri7PMRy9aYdWz8K-fI-6Rihqtje_Ob51r4W3XWKdGEeXwdydCf_iynbdIdy3Z-78AcUTL4TYirDXF__Tt84ytgOqpt1pinO3TJAOIWhkQZ80oHmWPE1iHcdzoJagNK9ljEfApoZggie2ykb0jA9abodhNQs3pGKwhBe32Q" alt="Project logo"></a>
+</p>
+<hr>
+
+- Update the Delivery Status for the Order.
+
+  In the above picture, the Delivery Person can see the Delivery Status, and Time as Pending. So from here, Delivery Person can update the Delivery Status and Time as per his expectation    as shown below.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=747px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEjoAPIy9hB-V2RQ1pP2uLVy8unywiMSc_AC0EETB64hlbCzTe8B6d72e3TUkfeHkyuDReHmyeB-j7WofGxRG70n0Zt46xOG-ASRN9-ZdklKvf75Q0c_O2daMx7bvRxRc63NQQlVCxo6erNaQi9F1jkjAKpr16uj1_Qap-OenNxbYx2oHCC-l1He86B9sw" alt="Project logo"></a>
+</p>
+
+
+
+  
+  
 
 ## 🔧 Running the tests <a name = "tests"></a>
 Explain how to run the automated tests for this system.
