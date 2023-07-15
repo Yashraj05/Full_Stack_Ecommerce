@@ -89,6 +89,8 @@ JAVA
         
 - Press Ctrl + X, then Y, and Enter to save the changes and exit nano.
 
+<hr>
+
 ```bash
 STS
 ```
@@ -116,6 +118,8 @@ STS
       - Expand the "General" category and select "Existing Projects into Workspace".
       - Click "Next" and browse to the root directory of your existing project.
       - Select the project(s) you want to import and click "Finish".
+
+<hr>
 
 ```bash
 MYSQL
@@ -147,6 +151,8 @@ Launch MySQL Workbench.
 - Click "Test Connection" to verify the connection, and then click "OK" to save the connection.
 - You can now use MySQL Workbench to manage your databases, execute queries, and perform other database-related tasks.
 
+<hr>
+
 ```
 NODE.JS
 ```
@@ -159,6 +165,8 @@ NODE.JS
 - Complete the installation process, and make sure to check the option to include Node.js in the system's PATH environment variable. This allows you to run Node.js and npm (Node Package Manager) commands from any directory in the command prompt or terminal.
 - To verify if Node.js and npm are installed correctly, open a command prompt (Windows) or terminal (macOS/Linux) and run the following commands:```node -v
 npm -v```
+
+<hr>
 
 ```
 VS CODE EDITOR
@@ -177,6 +185,8 @@ VS CODE EDITOR
 - When you first launch Visual Studio Code, you will see a welcome screen. You can choose to customize your settings or skip the customization and go straight to the editor.
 
 - Visual Studio Code is now ready to use as a code editor. You can start by opening a folder or creating a new file.
+
+
 
 ##  Modules <a name = "modules"></a>
 
@@ -337,10 +347,12 @@ BACKEND PART  :-
 
 <h3>STEP 2 :- Open application.properties file </h3>
 
-- Write your root password after equals on the line : ```spring.datasource.password = ```;
-- Give the correct path of the images folder under : ```disk.uplaod.basepath = ```;
+- Write your root password after equals on the line : ```spring.datasource.password = ```
+- Create a images folder in the system .
+- Give the correct path of the images folder under : ```disk.uplaod.basepath = ```
   
-<h4>STEP 3 :- Run Mavin Build</h3>
+<h3>STEP 3 :- Run Mavin Build</h3>
+
 - Click on the project .
 - Select run as maven build
 - In the goals write : clean install
@@ -349,6 +361,7 @@ BACKEND PART  :-
 - The console will open and it will run the tests and after completion it will show  'BHUILD SUCCESS'
 
 <h4>STEP 3 :- Run the Project </h3>
+
 - Click on the Project 
 - Select run as Spring Boot App
 
