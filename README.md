@@ -318,47 +318,132 @@ DELIVERY PERSON ROLE
   <a href="" rel="noopener">
  <img width=747px height=348px src="https://blogger.googleusercontent.com/img/a/AVvXsEjoAPIy9hB-V2RQ1pP2uLVy8unywiMSc_AC0EETB64hlbCzTe8B6d72e3TUkfeHkyuDReHmyeB-j7WofGxRG70n0Zt46xOG-ASRN9-ZdklKvf75Q0c_O2daMx7bvRxRc63NQQlVCxo6erNaQi9F1jkjAKpr16uj1_Qap-OenNxbYx2oHCC-l1He86B9sw" alt="Project logo"></a>
 </p>
-
-
-
-  
-  
-
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
+<hr>
 
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
+
+```
+BACKEND PART  :- 
+```
+  
+<h3> STEP 1 :- Import the backend part of project to sts</h3>
+
+- Launch Spring Tool Suite.
+- In the main menu, click on "File" and select "Import" to open the import wizard.
+- In the import wizard, expand the "Maven" category and select "Existing Maven Projects". Click "Next".
+- On the next screen, click the "Browse" button next to the "Root Directory" field and navigate to the location of your Maven project.
+- Select the project folder and click "Finish". STS will start scanning the project directory for the Maven project structure and dependencies.
+- Once the project is detected, you will see it listed in the import wizard. Make sure the project checkbox is selected, and click "Finish".
+- STS will import the Maven project and start building it. This process may take some time.
+
+<h3>STEP 2 :- Open application.properties file </h3>
+
+- Write your root password after equals on the line : ```spring.datasource.password = ```;
+- Give the correct path of the images folder under : ```disk.uplaod.basepath = ```;
+  
+<h4>STEP 3 :- Run Mavin Build</h3>
+- Click on the project .
+- Select run as maven build
+- In the goals write : clean install
+- Check the skip test box 
+- Click on apply 
+- The console will open and it will run the tests and after completion it will show  'BHUILD SUCCESS'
+
+<h4>STEP 3 :- Run the Project </h3>
+- Click on the Project 
+- Select run as Spring Boot App
+
+<hr>
+
+```
+FRONT-END PART  :-
+```
+
+<h3> STEP 1 :- Import the front-end part of project to vs code </h3>
+
+- Launch Visual Studio Code.
+- Open the folder where your existing React project is located by either selecting "Open Folder" from the "File" menu or using the keyboard shortcut Ctrl+K Ctrl+O (Windows/Linux) or Cmd+K - Cmd+O (macOS).
+- Once the folder is open in VS Code, you should see the project files in the Explorer sidebar.
+- Open an integrated terminal in VS Code by selecting "View" from the menu, then "Terminal" or using the keyboard shortcut Ctrl+ backtick (`). This will open a new terminal pane at the bottom of the editor.
+- In the terminal, navigate to the root directory of your React project.
+- Once you're in the root directory of your React project and have Node.js and npm installed, run the following command to install the project dependencies listed in the package.json file:```npm install```
+
+<h3> STEP 2 :- Run the Project  </h3>
+
+- After the installation is complete, run the following command to start the React development server:```npm start```
+- Open a web browser and navigate to the URL provided in the terminal (e.g., http://localhost:3000). You should now see your React application running in the browser.
+- 
+```
+NOTE:- Initially the admin need to add products and category as shown in modules section of the readme . 
+```
+
 
 ## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+
+<h2> STEP 1 :- Set up the Live System:</h2>
+
+- Obtain a server or hosting provider where you can deploy your project.
+- Ensure the server meets the system requirements for running React JS, Spring Boot, and MySQL.
+- Install the necessary software dependencies on the server, including Node.js, Java (for Spring Boot), and MySQL.
+
+<h2>STEP 2 :- Build the React JS Frontend:</h2>
+
+- In the root directory of your React project, run the following command to build the optimized production-ready version of your frontend:```npm run build```
+- This will create a build folder containing the compiled and minified assets of your React project.
+
+<h2> STEP 3 :-Configure and Serve the Frontend (React JS):</h2>
+
+- Set up a web server (e.g., Apache or Nginx) on the server to serve the static files of your React JS frontend.
+- Configure the web server to point to the build folder generated in Step 2.
+- Set up appropriate routing rules and configurations to handle frontend routes.
+
+<h2>STEP 4 :-Test and Verify the Deployment:</h2>
+
+- Access the live system URL in a web browser to ensure that the React JS frontend and Spring Boot backend are functioning correctly.
+- Perform end-to-end testing on the live system to validate the complete functionality of the E-commerce Online Shopping Project.
+- Monitor the logs and error reports to identify and resolve any issues that may arise during the live deployment.
+
+<h2>STEP 5 :-Set up Continuous Integration/Continuous Deployment (CI/CD) (Optional):</h2>
+
+- Consider implementing CI/CD pipelines using tools like Jenkins, Travis CI, or GitLab CI/CD to automate the deployment process, allowing for continuous integration and deployment of updates to the live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+- [MySQL](https://www.mysql.com/) - Database
+- [Spring-Boot](https://spring.io/projects/spring-boot) - Server Framework
+- [React.js](https://react.dev/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@yashraj](https://github.com/Yashraj05) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+ <h2>Inspiration :-</h2>
+ 
+- Full-stack Development: Developing an E-commerce project with React JS, Spring Boot, and MySQL allows you to showcase your skills in both frontend and backend development. It offers an opportunity to work with modern JavaScript frameworks, build efficient APIs, and handle data persistence.
+- React JS - Rich User Interface: React JS is a popular JavaScript library for building user interfaces. It offers a component-based architecture, allowing you to create reusable UI components, manage state efficiently, and provide a seamless and responsive user experience.
+- Spring Boot - Powerful Backend Framework: Spring Boot is a robust Java framework that simplifies backend development. It provides features like dependency injection, easy configuration, and a wide range of libraries for building RESTful APIs, handling security, and integrating with databases.
+- MySQL - Reliable Database Management: MySQL is a widely used open-source relational database management system. It offers stability, performance, and scalability, making it a suitable choice for handling product data, user information, and order management in an e-commerce application.
+- E-commerce Demand: E-commerce is a rapidly growing industry with increasing demand. Developing an E-commerce Online Shopping Project allows you to explore real-world scenarios, such as product listing, searching, filtering, user authentication, shopping cart management, and order processing.
+- Learning Opportunities: Building an E-commerce project using these technologies provides an excellent learning experience. You can gain expertise in frontend development with React JS, backend development with Spring Boot, API integration, database management with MySQL, and the overall development workflow.
+- Portfolio and Career Growth: Completing an E-commerce project using React JS, Spring Boot, and MySQL adds a valuable project to your portfolio, showcasing your skills and capabilities as a full-stack developer. It can attract potential employers, clients, or collaborators and open doors to new career opportunities.
+- Customizability and Scalability: By building your own E-commerce project, you have the freedom to customize and tailor it to specific business requirements. You can implement custom features, integrate payment gateways, optimize performance, and scale the application as the business grows.
+  
+<h2> References </h2> 
+
+<h4>React JS:</h4>
+
+- React documentation: https://reactjs.org/docs/
+- React Router: For handling client-side routing within the React application. Documentation: https://reactrouter.com/
+- React Bootstrap or Material-UI: UI component libraries for building responsive and visually appealing user interfaces. Documentation: https://react-bootstrap.github.io/ or https://mui.com/
+  
+<h4>Spring Boot:</h4>
+
+- Spring Boot documentation: https://spring.io/projects/spring-boot
+- Spring Data JPA: Simplifies database operations and provides repositories for interacting with MySQL. Documentation: https://spring.io/projects/spring-data-jpa
+- Spring Security: For implementing authentication and authorization in your application. Documentation: https://spring.io/projects/spring-security
+
+<h4>MySQL:</h4>
+
+- MySQL documentation: https://dev.mysql.com/doc/
+- Spring Data JPA: As mentioned above, it simplifies database interactions and provides convenient methods for querying and manipulating data in MySQL.
